@@ -55,11 +55,11 @@ There are broadly 2 ways we can handle this:
    WHERE follows.follower_id = current_user
    ```
 
-   ![](1-2.png)
+   ![](./img/1-2.png)
 
 2. Maintain a cache for each user’s home timeline—like a mailbox of tweets for each recipient user (see Figure 1-3). When a user *posts a tweet*, look up all the people who follow that user, and insert the new tweet into each of their home timeline caches. The request to read the home timeline is then cheap, because its result has been computed ahead of time.
 
-   ![](1-3.png)
+   ![](./img/1-3.png)
 
 
 
