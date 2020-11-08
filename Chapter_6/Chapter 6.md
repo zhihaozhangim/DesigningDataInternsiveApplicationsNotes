@@ -162,3 +162,4 @@ Many distributed data systems rely on a separate coordination service such as Zo
 
 ![img](/Users/zhihzhan/Desktop/DesigningDataInternsiveApplicationsNotes/Chapter_6/img/Screen Shot 2020-11-07 at 1.33.54 PM.png)
 
+open .
